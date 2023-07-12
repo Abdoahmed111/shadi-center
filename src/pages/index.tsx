@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Header from "~/components/sections/Header";
-import Services from "~/components/sections/services";
+import Services from "~/components/sections/Services";
 import Navbar from "~/components/ui/Navbar";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Header />
-      <Services />
+      <Services/>
     </>
   );
 }
